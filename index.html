@@ -31,9 +31,10 @@
 							<h1>Winter's Custom Carpentry</h1>
 						</header>
 						<h3>Manchester's finest carpentry work at an affordable, personal price!</h3><br />
-						<p>I've been working as a carpenter for 10 years. From floating shelves to custom woodwork and trim, I can make it happen.
-							 If you'd like to get in touch, my contact information can be found at the bottom of this page. <p>
-						<p>Check out my recent work below!</p>
+						<p>I've been working as a carpenter in Coffee County and surrounding areas for 10 years. From floating shelves to custom woodwork and trim, I can make it happen! Check out my recent work below!
+							
+							 <br /> <br />If you'd like to get in touch, you can use the form to submit a request directly to my email. You can also use the grey message button on the bottom right hand corner of the page to submit a message to me.<p>
+						<!-- <p>Check out my recent work below!</p> -->
 								<!-- <ul class="actions"> Learn MORE BUTTON
 							<li><a href="#" class="button">Learn More</a></li>
 						</ul> -->
@@ -94,7 +95,43 @@
 									</div>
 								</form>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<!-- button does not work -->
+									<li><input type="submit" value="Send Message" ></li>
+									<!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/xgednarq",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "gray"
+      },
+      button: {
+        backgroundColor: "gray"
+      }
+    }
+  });
+</script>
 								</ul>
 							</div>
 							<div class="col-4 col-12-small">
@@ -131,7 +168,7 @@
 						<!-- <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Winter's Custom Carpentry</li><li>Developed by: <a href="http://lancet.live">Lance Cunningham</a></li>
+						<li>&copy; Winter's Custom Carpentry</li><li>Developed by: <a href="http://lancet.live">Lance Cunningham</a></li> 
 					</ul>
 				</div>
 			</footer>

@@ -28,6 +28,10 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+/* .copyright{
+	padding: 10em;
+	margin: 10em
+} */
 
 ol, ul {
 	list-style: none;
@@ -274,6 +278,7 @@ input, select, textarea {
 			.container {
 				width: 100% !important;
 				max-width: 100% !important;
+				
 			}
 
 		}

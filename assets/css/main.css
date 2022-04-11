@@ -2647,12 +2647,13 @@ input, select, textarea {
 		margin: 1em 0 0 0;
 	}
 
-		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
-		}
+		/* #footer .icons a {
+			color: #ffffff;;
+		} */
 
 	#footer .copyright {
 		color: rgba(255, 255, 255, 0.4);
+		/* color: #ffffff;  */
 		font-size: 1em;
 		list-style: none;
 		margin: 1em 0 0 0;

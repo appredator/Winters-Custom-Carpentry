@@ -3079,7 +3079,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("../../images/wood5.jpg"), url("../../images/wood5.jpg");
+				background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.ccBw6uAu-w2tavo6bIinCgHaEA%26pid%3DApi&f=1"), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.ccBw6uAu-w2tavo6bIinCgHaEA%26pid%3DApi&f=1");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
